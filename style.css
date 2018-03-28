@@ -1,0 +1,30 @@
+p {
+	text-align: center
+	color: white;
+}
+
+body {
+	background-image: url(http://images.unsplash.com/photo-1493787039806-2edcbe808750?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ecc2e2075b0fea567faf5d4c98bde3c&auto=format&fit=crop&w=1050&q=80)
+}
+
+h1{
+	text-align: center;
+	margin-top: 200px;
+}
+
+header {
+	margin: 200px;
+}
+
+input {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+button {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+

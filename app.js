@@ -4,7 +4,7 @@ form.addEventListener("submit", function(e){
 
 	e.preventDefault()
 	let inputValue = document.getElementById("blogInput").value
-console.log(inputValue + "is");
+
 let newElement = document.createElement("p", inputValue + "")
 newElement.innerHTML = inputValue
 document.getElementById('container').appendChild(newElement, inputValue);
