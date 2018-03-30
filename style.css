@@ -1,6 +1,16 @@
-p {
-	text-align: center
+#container {
+	
+	margin: 0 auto;
+	width: 500px;
 	color: white;
+
+}
+
+li {
+	display: block;
+	text-align: center;
+	color: black;
+	
 }
 
 body {

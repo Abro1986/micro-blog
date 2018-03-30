@@ -5,16 +5,17 @@ form.addEventListener("submit", function(e){
 	e.preventDefault()
 	let inputValue = document.getElementById("blogInput").value
 
-let newElement = document.createElement("p", inputValue + "")
+let newElement = document.createElement('li')
+newElement.classList.add('list-group-item');
 newElement.innerHTML = inputValue
 document.getElementById('container').appendChild(newElement, inputValue);
 });
 
 
 
-let inputValue = document.getElementById("blogInput").value
-console.log(inputValue + "is");
-let newElement = document.createElement("p")
-newElement.innerHTML = inputValue
+//let inputValue = document.getElementById("blogInput").value
+//console.log(inputValue + "is");
+//let newElement = document.createElement("p")
+//newElement.innerHTML = inputValue
 //.getElementById("container").appendChild(newElement.innerHTML)
 //container = document.getElementById("container")
